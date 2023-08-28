@@ -1,11 +1,11 @@
 
-nav {
+#primary-nav {
     display:flex;
     padding:20px;
     border-bottom: 1px solid lightgray;
 }
 
-.nav-main-image {
+.nav-main-svg {
    width:3.75em;
    height:1.75em;
    display:block;

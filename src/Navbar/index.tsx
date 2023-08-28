@@ -3,13 +3,13 @@ import './index.css'
 const Navbar = () => {
     return (
 
-    <nav>
+    <nav id="primary-nav">
       
     <ul className="nav-list">
         <svg 
             aria-hidden="true" 
             focusable="false" 
-            className="nav-main-image"
+            className="nav-main-svg"
             xmlns="http://www.w3.org/2000/svg" 
             width="45" 
             height="21" 
