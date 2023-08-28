@@ -5,13 +5,13 @@
   --light-purple:#d5b3ff;
   --light-green:#b6ffc0;
   --blue:#0000ff
-
 }
 
 * {
   box-sizing: border-box;
   padding:0;
   margin:0;
+  font-family:poppins
 }
 
 button {

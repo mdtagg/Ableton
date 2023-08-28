@@ -13,22 +13,39 @@ nav {
 
 .nav-list {
     display:flex;
+    justify-content: flex-start;
     width:50%;
-    justify-content: center;
     align-items:center;
 }
 
 .nav-list li {
-    margin-left:20px;
+    margin-left:1.1rem;
     font-weight: 1000;
 }
 
 .nav-list button {
-    font-size:1rem;
+    font-size:.9rem;
+}
+
+.more-button {
+    color:var(--title-orange);
+    display:flex;
+    align-items: center;
+    gap:.2rem;
+}
+
+.more-button span {
+    font-size:1.5rem;
 }
 
 .trial-account {
     display:flex;
     justify-content: flex-end;
     flex-shrink: 0;
+    
+}
+
+#trial-button {
+    color:var(--blue);
+    font-size: .7rem;
 }
