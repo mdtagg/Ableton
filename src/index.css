@@ -1,0 +1,25 @@
+:root {
+  --light-yellow:#fbffa7;
+  --title-orange:#ff764d;
+  --light-blue:#b1c5ff;
+  --light-purple:#d5b3ff;
+  --light-green:#b6ffc0;
+  --blue:#0000ff
+
+}
+
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+button {
+  background: none;
+  border:0px;
+  cursor:pointer;
+}
+
+ul {
+  list-style: none;
+}
