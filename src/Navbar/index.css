@@ -1,7 +1,7 @@
 
 #primary-nav {
     display:flex;
-    padding:20px;
+    padding:1.1rem;
     border-bottom: 1px solid lightgray;
 }
 
@@ -20,21 +20,21 @@
 
 .nav-list li {
     margin-left:1.1rem;
-    font-weight: 1000;
+    font-weight: 400;
 }
 
-.nav-list button {
+.nav-list a {
     font-size:.9rem;
 }
 
-.more-button {
+.more {
     color:var(--title-orange);
     display:flex;
     align-items: center;
     gap:.2rem;
 }
 
-.more-button span {
+.more span {
     font-size:1.5rem;
 }
 
@@ -42,10 +42,15 @@
     display:flex;
     justify-content: flex-end;
     flex-shrink: 0;
-    
+    margin-right:20px;
 }
 
-#trial-button {
+#trial {
     color:var(--blue);
     font-size: .7rem;
+    font-weight: 600;
+}
+
+#log-in {
+    font-size:.7rem;
 }

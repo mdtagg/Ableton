@@ -19,23 +19,23 @@ const Navbar = () => {
             d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z">
             </path>
         </svg>
-        <li><button>Live</button></li>
-        <li><button>Push</button></li>
-        <li><button>Note</button></li>
-        <li><button>Link</button></li>
-        <li><button>Shop</button></li>
-        <li><button>Packs</button></li>
-        <li><button>Help</button></li>
+        <li><a>Live</a></li>
+        <li><a>Push</a></li>
+        <li><a>Note</a></li>
+        <li><a>Link</a></li>
+        <li><a>Shop</a></li>
+        <li><a>Packs</a></li>
+        <li><a>Help</a></li>
         <li>
-            <button className="more-button">
+            <a className="more">
                 <p>More</p>
                 <span>+</span>
-            </button>
+            </a>
         </li>
       </ul>
       <ul className="nav-list trial-account">
-        <li><button id="trial-button">Try Live for Free</button></li>
-        <li><button className="log-in">Log in or register</button></li>
+        <li><a id="trial">Try Live for Free</a></li>
+        <li><a id="log-in">Log in or register</a></li>
       </ul>
     </nav>
 
