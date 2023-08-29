@@ -44,9 +44,39 @@ ul {
 
 main {
   padding:0 8rem 0 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:8rem;
 }
 
 .main-image {
   width:100%;
   background-size:cover;
+}
+
+.text-section {
+  width:60%;
+  display:flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.text-section a {
+  color:var(--blue)
+}
+
+.top-text {
+  font-size:1.5rem;
+}
+
+.bottom-text {
+  font-weight:300;
+}
+
+.image-container {
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
 }
