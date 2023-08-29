@@ -49,6 +49,7 @@ main {
   justify-content: center;
   align-items: center;
   gap:8rem;
+  overflow:hidden;
 }
 
 .main-image {
@@ -75,8 +76,30 @@ main {
   font-weight:300;
 }
 
-.image-container {
+.background-container {
+  height:120vh;
+  width:100vw;
   display:flex;
-  justify-content: space-between;
   align-items:center;
+  justify-content: space-between;
+}
+
+.image-container {
+  height:70%;
+  width:40%;
+  display:flex;
+  align-items:center;
+  position:relative;
+  left:8rem;
+
+}
+
+.color-image-container {
+  height:100%;
+  width:60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--light-yellow);
 }
