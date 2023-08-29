@@ -1,4 +1,9 @@
+#secondary-nav {
+    position:sticky;
+    height:3rem;
+}
 
 #secondary-nav a {
     font-size:.75rem;
+    font-weight:600;
 }

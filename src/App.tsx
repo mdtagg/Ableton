@@ -6,8 +6,18 @@ function App() {
 
   return (
     <>
-      <PrimaryNav/>
-      <SecondaryNav/>
+      <header>
+        <PrimaryNav/>
+        <SecondaryNav/>
+      </header>
+      <main>
+       
+        <img 
+          src="/src/assets/pexels-cowomen-2041627.jpg"
+          className="main-image"
+        ></img>
+        
+      </main>
     </>
   )
 }

@@ -41,3 +41,12 @@ ul {
   font-size:1rem;
   font-weight:500;
 }
+
+main {
+  padding:0 8rem 0 8rem;
+}
+
+.main-image {
+  width:100%;
+  background-size:cover;
+}
