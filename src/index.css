@@ -4,7 +4,7 @@
   --light-blue:#b1c5ff;
   --light-purple:#d5b3ff;
   --light-green:#b6ffc0;
-  --blue:#0000ff
+  --blue:#0000ff;
 }
 
 * {
@@ -12,6 +12,11 @@
   padding:0;
   margin:0;
   font-family:poppins
+}
+
+nav {
+  display:flex;
+  padding:1rem 2.5rem 1rem 2.5rem;
 }
 
 a {
@@ -22,4 +27,17 @@ a {
 
 ul {
   list-style: none;
+}
+
+.nav-list {
+  display:flex;
+  justify-content: flex-start;
+  align-items:center;
+  width:50%;
+  gap:2rem;
+}
+
+.nav-list a {
+  font-size:1rem;
+  font-weight:500;
 }

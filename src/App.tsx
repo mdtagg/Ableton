@@ -1,10 +1,14 @@
-import Navbar from "./Navbar"
+import PrimaryNav from "./PrimaryNav"
+import SecondaryNav from "./SecondaryNav"
 
 
 function App() {
 
   return (
-    <Navbar/>
+    <>
+      <PrimaryNav/>
+      <SecondaryNav/>
+    </>
   )
 }
 

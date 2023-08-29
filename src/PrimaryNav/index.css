@@ -1,30 +1,11 @@
 
 #primary-nav {
-    display:flex;
-    padding:1.1rem;
     border-bottom: 1px solid lightgray;
 }
 
 .nav-main-svg {
    width:3.75em;
    height:1.75em;
-   display:block;
-}
-
-.nav-list {
-    display:flex;
-    justify-content: flex-start;
-    width:50%;
-    align-items:center;
-}
-
-.nav-list li {
-    margin-left:1.1rem;
-    font-weight: 400;
-}
-
-.nav-list a {
-    font-size:.9rem;
 }
 
 .more {
@@ -38,19 +19,19 @@
     font-size:1.5rem;
 }
 
-.trial-account {
+#trial-account {
     display:flex;
     justify-content: flex-end;
-    flex-shrink: 0;
-    margin-right:20px;
+    align-items:center;
 }
 
 #trial {
     color:var(--blue);
-    font-size: .7rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
 #log-in {
-    font-size:.7rem;
+    font-size:1rem;
+    font-weight:500;
 }
