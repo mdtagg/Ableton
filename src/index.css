@@ -90,16 +90,41 @@ main {
   display:flex;
   align-items:center;
   position:relative;
-  left:8rem;
+}
 
+.adjust-left {
+  left:8rem;
 }
 
 .color-image-container {
   height:100%;
+  padding-bottom:5rem;
   width:60%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: var(--light-yellow);
+}
+
+#first-video {
+  display:flex;
+  flex-direction: column;
+  width:60%;
+  height:400px;
+}
+
+#first-video p {
+  font-size: .75rem;
+}
+
+#left-image-container {
+  height:auto;
+  gap:6rem;
+  padding:6rem;
+  background-color: var(--light-green);
+}
+
+.adjust-right {
+  right:6rem;
 }
