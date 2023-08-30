@@ -3,7 +3,7 @@ footer {
     display:grid;
     grid-template-columns: repeat(auto-fill, 1fr);
     grid-template-rows: repeat(auto-fill, 1fr);
-    padding:6rem 8rem;
+    padding:8rem;
     row-gap:4rem;
     column-gap:8rem;
 }

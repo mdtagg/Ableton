@@ -1,22 +1,22 @@
-
 #primary-nav {
     border-bottom: 1px solid lightgray;
 }
 
-.nav-main-svg {
-   width:3.75em;
-   height:1.75em;
+#primary-nav  * {
+    font-size: 1rem;
+    font-weight:500;
 }
 
-.more {
-    color:var(--title-orange);
+.nav-list {
     display:flex;
-    align-items: center;
-    gap:.2rem;
-}
+    justify-content: flex-start;
+    align-items:center;
+    width:50%;
+    gap:2rem;
+  }
 
-.more span {
-    font-size:1.5rem;
+.more-button {
+    color:var(--title-orange);
 }
 
 #trial-account {
@@ -27,11 +27,5 @@
 
 #trial {
     color:var(--blue);
-    font-size: 1rem;
     font-weight: 600;
-}
-
-#log-in {
-    font-size:1rem;
-    font-weight:500;
 }

@@ -1,3 +1,12 @@
+#sticky-nav {
+    /* border:1px solid black; */
+    opacity: 0.7;
+    position:sticky;
+    top:0;
+    align-self:flex-start;
+    height:auto;
+}
+
 #secondary-nav {
     position:sticky;
     height:3rem;
