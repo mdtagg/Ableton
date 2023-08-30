@@ -7,14 +7,6 @@
     font-weight:500;
 }
 
-.nav-list {
-    display:flex;
-    justify-content: flex-start;
-    align-items:center;
-    width:50%;
-    gap:2rem;
-  }
-
 .more-button {
     color:var(--title-orange);
 }

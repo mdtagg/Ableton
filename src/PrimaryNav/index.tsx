@@ -22,7 +22,11 @@ const PrimaryNav = () => {
                 </button>
             </li>
         </ul>
-        <ul id="trial-account" className="nav-list">
+    
+        <ul 
+            id="trial-account" 
+            className="nav-list"
+        >
             <li><a id="trial">Try Live for Free</a></li>
             <li><a>Log in or register</a></li>
         </ul>

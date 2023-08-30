@@ -2,9 +2,9 @@ import "./index.css"
 
 const SecondaryNav = () => {
     return (
-        <nav id="sticky-nav">
+        <nav id="secondary-nav">
             <ul 
-                id="secondary-nav" 
+                // id="secondary-nav" 
                 className="nav-list"
             >
                 <li><a style={{"color":"orange"}}>About</a></li>

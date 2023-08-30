@@ -52,3 +52,11 @@ button {
 .adjust-right {
   right:6rem;
 }
+
+.nav-list {
+  display:flex;
+  justify-content: flex-start;
+  align-items:center;
+  width:50%;
+  gap:2rem;
+}
