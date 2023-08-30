@@ -1,0 +1,27 @@
+
+footer {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding:8rem;
+    gap:4rem;
+}
+
+footer > * {
+    border:1px solid black;
+}
+
+#footer-title {
+    font-size: 3rem;
+}
+
+#footer-title, #more-info-container {
+    grid-column:1 / 4;
+}
+
+#more-info-container {
+    display:flex;
+    list-style:none;
+    gap:2rem;
+}
+

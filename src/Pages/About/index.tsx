@@ -6,7 +6,6 @@ const About = () => {
         <div className="main-image">
           <img 
             src="../../src/Assets/pexels-cowomen-2041627 (1)-min.jpg"
-            // className="main-image"
             height="100%"
             width="100%"
           />

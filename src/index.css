@@ -50,6 +50,7 @@ main {
   align-items: center;
   gap:8rem;
   overflow:hidden;
+  border-bottom:1px solid lightgray;
 }
 
 .main-image {
