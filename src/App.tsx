@@ -19,8 +19,9 @@ function App() {
         {moreDropdown && 
           <MoreDropdown/>
         }
-        <SecondaryNav/>
+    
       </header>
+      <SecondaryNav/>
       <main>
         <About/>
       </main>

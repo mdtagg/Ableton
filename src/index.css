@@ -15,6 +15,10 @@
   font-family:Poppins;
 }
 
+header {
+  position: relative;
+}
+
 nav {
   display:flex;
   padding:var(--nav-padding)
