@@ -2,12 +2,19 @@ import PrimaryNav from "./components/PrimaryNav"
 import SecondaryNav from "./components/SecondaryNav"
 import About from "./Pages/About"
 import Footer from "./components/Footer"
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import MoreDropdown from "./components/MoreDropdown"
 
 function App() {
 
   const [ moreDropdown, setMoreDropdown ] = useState(false)
+  const [ windowSize, setWindowSize ] = useState(window.innerWidth)
+
+  useEffect(() => {
+    window.addEventListener("resize",() => {
+      setWindowSize(window.innerWidth)
+    })
+  },[])
 
   return (
     <>
@@ -15,11 +22,11 @@ function App() {
         <PrimaryNav
           moreDropdown={moreDropdown}
           setMoreDropdown={setMoreDropdown}
+          windowSize={windowSize}
         />
         {moreDropdown && 
           <MoreDropdown/>
         }
-    
       </header>
       <SecondaryNav/>
       <main>

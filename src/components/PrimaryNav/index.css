@@ -1,13 +1,21 @@
 
 #primary-nav  * {
-    font-size: 1rem;
-    font-weight:500;
+    /* font-size: 1rem;
+    font-weight:500; */
 }
 
 .more-button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:.25rem;
     color:var(--title-orange);
+    flex-wrap:nowrap;
 }
 
+#plus-symbol {
+    font-size:1.5rem;
+}
 #trial-account {
     display:flex;
     justify-content: flex-end;
@@ -17,4 +25,16 @@
 #trial {
     color:var(--blue);
     font-weight: 600;
+}
+
+.small-menu {
+    display:flex;
+    gap:2rem;
+    font-size:1rem;
+}
+
+.menu-icon-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }

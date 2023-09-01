@@ -1,22 +1,27 @@
 import './index.css'
 import Logo from './Logo'
+import { Icon } from '@iconify/react';
 
 interface TPrimaryNav {
     moreDropdown:boolean
     setMoreDropdown: React.Dispatch<React.SetStateAction<boolean>>
+    windowSize:number
 }
 
 const PrimaryNav = (props:TPrimaryNav) => {
 
-    const { moreDropdown,setMoreDropdown } = props
+    const { moreDropdown, setMoreDropdown, windowSize } = props
     const moreSymbol = moreDropdown ? " -" : " +"
     const primaryNavLinks = ['Live','Push','Note','Link','Shop','Packs','Help']
 
     return (
 
     <nav id="primary-nav">
+        {windowSize >= 1050 ?
+        <>
         <ul className="nav-list">
             <Logo/>
+            
             {primaryNavLinks.map(link => {
                 return (<li><a>{link}</a></li>)
             })}
@@ -27,7 +32,7 @@ const PrimaryNav = (props:TPrimaryNav) => {
                     onClick={() => setMoreDropdown(!moreDropdown)}
                 >
                     <span>More</span>
-                    <span>{moreSymbol}</span>
+                    <span id="plus-symbol">{moreSymbol}</span>
                 </button>
             </li>
         </ul>
@@ -39,6 +44,19 @@ const PrimaryNav = (props:TPrimaryNav) => {
             <li><a id="trial">Try Live for Free</a></li>
             <li><a>Log in or register</a></li>
         </ul>
+        </> 
+        :
+        <div className="small-menu">
+            <Logo/>
+            <button className="menu-icon-container">
+                <p>Menu</p>
+                {moreDropdown ?
+                <Icon icon="mdi:menu-up" /> :
+                <Icon icon="mdi:menu-down" />
+                }   
+            </button>
+        </div>
+        }  
     </nav>
 
     )
