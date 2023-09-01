@@ -4,7 +4,6 @@ const SecondaryNav = () => {
     return (
         <nav id="secondary-nav">
             <ul 
-                // id="secondary-nav" 
                 className="nav-list"
             >
                 <li><a style={{"color":"orange"}}>About</a></li>

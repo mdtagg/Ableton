@@ -1,7 +1,7 @@
-import PrimaryNav from "./PrimaryNav"
-import SecondaryNav from "./SecondaryNav"
+import PrimaryNav from "./components/PrimaryNav"
+import SecondaryNav from "./components/SecondaryNav"
 import About from "./Pages/About"
-import Footer from "./Footer"
+import Footer from "./components/Footer"
 
 function App() {
 
