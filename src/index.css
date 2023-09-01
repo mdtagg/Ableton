@@ -5,6 +5,7 @@
   --light-purple:#d5b3ff;
   --light-green:#b6ffc0;
   --blue:#0000ff;
+  --nav-padding: 1rem 2.5rem 1rem 2.5rem
 }
 
 * {
@@ -16,7 +17,7 @@
 
 nav {
   display:flex;
-  padding:1rem 2.5rem 1rem 2.5rem;
+  padding:var(--nav-padding)
 }
 
 a {
@@ -43,6 +44,7 @@ main {
 button {
   background-color: transparent;
   border:0;
+  cursor:pointer;
 }
 
 .adjust-left {

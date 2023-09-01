@@ -1,9 +1,15 @@
 import './index.css'
 import Logo from './Logo'
-console.log(Logo)
 
-const PrimaryNav = () => {
+interface TPrimaryNav {
+    moreDropdown:boolean
+    setMoreDropdown: React.Dispatch<React.SetStateAction<boolean>>
+}
 
+const PrimaryNav = (props:TPrimaryNav) => {
+
+    const { moreDropdown,setMoreDropdown } = props
+    const moreSymbol = moreDropdown ? " -" : " +"
     const primaryNavLinks = ['Live','Push','Note','Link','Shop','Packs','Help']
 
     return (
@@ -16,9 +22,12 @@ const PrimaryNav = () => {
             })}
 
             <li>
-                <button className="more-button">
+                <button 
+                    className="more-button"
+                    onClick={() => setMoreDropdown(!moreDropdown)}
+                >
                     <span>More</span>
-                    <span> +</span>
+                    <span>{moreSymbol}</span>
                 </button>
             </li>
         </ul>

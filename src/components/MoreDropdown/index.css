@@ -1,0 +1,30 @@
+
+
+.more-aside {
+    padding:var(--nav-padding);
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.more-aside h3 {
+    font-size:1.75rem;
+}
+
+.more-on-list {
+    display:flex;
+    gap:1.5rem;
+    font-size:1rem;
+    font-weight:300;
+}
+
+.more-from-list {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:1rem;
+}
+
+.bottom-text {
+    font-size:1rem;
+    font-weight:300;
+}

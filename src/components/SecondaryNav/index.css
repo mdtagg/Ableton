@@ -4,4 +4,6 @@
     position:sticky;
     height:4rem;
     font-size:.75rem;
+    border-top:1px solid lightgray;
+
 }
