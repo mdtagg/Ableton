@@ -2,8 +2,10 @@ import PrimaryNav from "./components/PrimaryNav"
 import SecondaryNav from "./components/SecondaryNav"
 import About from "./Pages/About"
 import Footer from "./components/Footer"
+import Jobs from "./Pages/Jobs"
 import { useState,useEffect } from 'react'
 import MoreDropdown from "./components/MoreDropdown"
+import { BrowserRouter,Routes, Route, Link } from "react-router-dom"
 
 function App() {
 
@@ -30,7 +32,10 @@ function App() {
       </header>
       <SecondaryNav/>
       <main>
-        <About/>
+        <Routes>
+          <Route path="/" element={<About/>} />
+          <Route path="jobs" element={<Jobs/>} />
+        </Routes>
       </main>
       <Footer/>
     </>

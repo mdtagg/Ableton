@@ -9,3 +9,12 @@
     background-color: white;
     opacity:.8;
 }
+
+.orange {
+    color:var(--title-orange)
+}
+
+/* .nav-about {
+    color:var(--title-orange);
+    text-decoration: none;
+} */
