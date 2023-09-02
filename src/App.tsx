@@ -5,7 +5,7 @@ import Footer from "./components/Footer"
 import Jobs from "./Pages/Jobs"
 import { useState,useEffect } from 'react'
 import MoreDropdown from "./components/MoreDropdown"
-import { BrowserRouter,Routes, Route, Link } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 
 function App() {
 

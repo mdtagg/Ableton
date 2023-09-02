@@ -5,10 +5,10 @@ const Jobs = () => {
         <>
             <img 
                 src="/src/Assets/pexels-pixabay-416405_2000x1250.jpg"
-                height="100%"
-                width="100%"
+                height="700px"
+                width="1200px"
             ></img>
-            
+
         </>
     )
 }

@@ -5,8 +5,8 @@ const About = () => {
         <>
         <img 
           src="../../src/Assets/pexels-cowomen-2041627 (1)-min.jpg"
-          height="100%"
-          width="100%"
+          height="700px"
+          width="1200px"
         />
         
         <section className="text-section">
