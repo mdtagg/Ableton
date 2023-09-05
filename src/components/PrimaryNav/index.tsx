@@ -1,6 +1,7 @@
 import './index.css'
 import Logo from './Logo'
 import { Icon } from '@iconify/react';
+import { Link } from "react-router-dom"
 
 interface TPrimaryNav {
     moreDropdown:boolean
@@ -20,7 +21,10 @@ const PrimaryNav = (props:TPrimaryNav) => {
         {windowSize >= 1050 ?
         <>
         <ul className="nav-list">
-            <Logo/>
+            <li>
+                <Link to="/"><Logo/></Link>
+                    
+            </li>
             
             {primaryNavLinks.map(link => {
                 return (<li><a>{link}</a></li>)
@@ -51,8 +55,8 @@ const PrimaryNav = (props:TPrimaryNav) => {
             <button className="menu-icon-container">
                 <p>Menu</p>
                 {moreDropdown ?
-                <Icon icon="mdi:menu-up" /> :
-                <Icon icon="mdi:menu-down" />
+                    <Icon icon="mdi:menu-up" /> :
+                    <Icon icon="mdi:menu-down" />
                 }   
             </button>
         </div>

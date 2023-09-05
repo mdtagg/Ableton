@@ -17,18 +17,26 @@ const SecondaryNav = () => {
             <ul 
                 className="nav-list"
             >
-                <Link 
-                    to="/" 
-                    data-link="about"
-                    onClick={(e) => handleSwitch(e)}
-                    className={headerRoute === "about" ? "orange" : ""}
-                >About</Link> 
-                <Link 
-                    to="/jobs"
-                    data-link="jobs"
-                    onClick={(e) => handleSwitch(e)}
-                    className={headerRoute === "jobs" ? "orange" : ""}
-                >Jobs</Link>
+                <li>
+                    <Link 
+                        to="/" 
+                        data-link="about"
+                        onClick={(e) => handleSwitch(e)}
+                        className={headerRoute === "about" ? "orange" : ""}
+                    >
+                        About
+                    </Link>
+                </li>
+                <li>
+                    <Link 
+                        to="/jobs"
+                        data-link="jobs"
+                        onClick={(e) => handleSwitch(e)}
+                        className={headerRoute === "jobs" ? "orange" : ""}
+                    >
+                        Jobs
+                    </Link>
+                </li>
                 <li><a>Apprenticeships</a></li>
             </ul>
         </nav>
