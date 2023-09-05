@@ -4,6 +4,7 @@ const About = () => {
     return (
         <>
         <img 
+          className="about-main-image"
           src="../../src/Assets/pexels-cowomen-2041627 (1)-min.jpg"
           height="700px"
           width="1200px"

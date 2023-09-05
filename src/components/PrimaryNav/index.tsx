@@ -22,8 +22,9 @@ const PrimaryNav = (props:TPrimaryNav) => {
         <>
         <ul className="nav-list">
             <li>
-                <Link to="/"><Logo/></Link>
-                    
+                <Link to="/">
+                    <Logo/>
+                </Link>
             </li>
             
             {primaryNavLinks.map(link => {

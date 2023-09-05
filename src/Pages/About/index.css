@@ -1,3 +1,7 @@
+.about-main-image {
+    width: clamp(500px, 80vw, 1200px);
+}
+
 .text-section {
     width:60%;
     display:flex;
@@ -11,7 +15,6 @@
 
 .text-section p:first-child {
     font-size:1.5rem;
-    
 }
 
 .text-section p:last-child {

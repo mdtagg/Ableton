@@ -8,6 +8,24 @@
   --nav-padding: 1rem 2.5rem 1rem 2.5rem
 }
 
+@media (max-width:600px) {
+  main {
+      padding:0;
+  }
+  
+  .about-main-image {
+      height:500px;
+  }
+
+  .text-section {
+      width:100%;
+  }
+
+  .text-section p:first-child {
+      font-size:1rem;
+  }
+}
+
 * {
   box-sizing: border-box;
   padding:0;
